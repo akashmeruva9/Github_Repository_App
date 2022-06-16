@@ -63,5 +63,9 @@ class Addrepo : AppCompatActivity() {
 
         }
 
+        addepoback.setOnClickListener {
+            super.onBackPressed()
+        }
+
     }
 }
